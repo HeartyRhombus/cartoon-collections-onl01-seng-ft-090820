@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(calls)
   case calls
-  when calls[0].length.any? > 4
+  when calls[0].length > 4
     true
   end
 
