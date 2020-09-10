@@ -17,7 +17,7 @@ def long_planeteer_calls(calls)
       word.length > 4
     end
     true
-  elsif calls.all? {|word| word.length <= 4}
+    elsif calls.all? {|word| word.length <= 4}
     false
   end
 end
