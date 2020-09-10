@@ -28,5 +28,7 @@ def find_the_cheese(array)
       array.include? cheese
       return cheese
     end
+  else
+    nil
   end
 end
